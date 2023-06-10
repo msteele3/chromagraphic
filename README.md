@@ -38,15 +38,15 @@ To use Chromagraphic, follow the instructions below:
 Chromagraphic is built with the help of the following libraries:
 
 - [Eel](https://github.com/python-eel/Eel): A little Python library for making simple Electron-like HTML/JS GUI apps
-- [ChromaDB](https://github.com/example/chromadb): A powerful database system for managing Chroma collections.
-- [OpenAI](https://openai.com/): OpenAI's GPT-3.5 language model used to enhance natural language processing capabilities.
+- [ChromaDB](https://github.com/example/chromadb): An open source vector database, using it being the focus of this project.
+- [OpenAI](https://openai.com/): OpenAI's embedding model is used to embed data into this version of ChromaGraphic.
 
 ## Contributing
 Any input on features is welcome.
 
 ## Future Features
 
-A search page is currently being developed in order to simulate the queries one might make inside of an application to allow for testing the inputted data.
+A search page is currently being developed in order to simulate the queries one might make inside of an application to allow for testing the inputted data. Additionally, selection of embedding function will become an available GUI function in the near future.
 
 
 ## Contact
