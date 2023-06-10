@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="../eel.js"></script>
+</head>
+<body>
+    <script type="text/javascript" src="./js/document-adder.js"></script>
+     <div class="right-side">
+            <h3>Select your document</h3>
+            <select id="document-select" onchange="updateDocumentBox()">
+                <option value="" disabled selected>Select your document</option>
+            </select>
+            <div class="scrollable-view">
+                <div class="title-info">
+                    <h3 id="document-source">Document Source</h3>
+                </div>
+                <p class="document-text" id="document-text">Document text </p> 
+            </div>
+    </div>
+</body>
+</html>

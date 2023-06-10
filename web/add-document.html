@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="../eel.js"></script>
+</head>
+<body>
+    <script type="text/javascript" src="./js/document-adder.js">
+    </script>
+    <div class="add-document-container">
+        <div class="item-group">
+            <label for="collection-select">Collection Name:</label>
+            <select id="collection-select">
+                <option value="" disabled selected>Select Collection</option>
+                <option value="default">Default</option>
+            </select>
+        </div>
+        <div class="item-group">
+            <label for="document-name">Document Name:</label>
+            <input type="text" id="document-name">
+        </div>
+        <div class="source-group">
+            <label for="document-source">Document Source Url:</label>
+            <input type="text" id="document-source">
+        </div>
+        <div class="item-group">
+            <label for="document-content">Document Content:</label>
+            <textarea id="document-content" rows="6"></textarea>
+        </div>
+        <div class="button-group">
+            <button class="submit-btn btn" onclick=submitNewDocument()>Submit</button>
+            <a href="index.html" class="back-btn btn">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChromaGraphic</title>
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="../eel.js"></script>
+</head>
+<!--    <script type="text/javascript" src="/eel.js"></script>
+-->
+<body>
+    <script type="text/javascript" src="./js/main.js">
+    </script>
+    <div class="container">
+        <div class="left-side">
+            <h3>Path and Collection</h3>
+            <div class="path-container">
+                <h4>Path to Client: </h4>
+                <p id="chroma-client-path">/path/to/something</p>
+                <!--
+                <button class="btn change-path-btn">Change Path</button>
+                -->
+            </div>
+            <div class="path-input-container hidden">
+                <div class="path-input-div">
+                    <p>Enter path here:</p>
+                    <input type="text" id="path-input" placeholder="Full Path Here">
+                    <button class="btn submit-path-btn">Submit</button>
+                </div>
+            </div>
+            <div class="collection-container">
+                <div class="collection-selection">
+                    <h4>Select Collection from Dropdown</h4>
+                    <select id="collection-select">
+                        <option value="" disabled selected>Select Collection</option>
+
+                    </select>
+                </div>
+                <div class="collection-buttons">
+                    <button class="btn create-btn create-collection-button">Create Collection</button>
+                    <button id="mydeleter" class="btn delete-btn delete-collection-button">Delete Collection</button>
+                </div>
+                <div class="add-collection-div hide-collect-div">
+                    <label for="collection-name">Collection Name:</label>
+                    <input type="text" id="collection-name" placeholder="Enter collection name">
+                    <button class="submit-new-collection">Submit</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right-side">
+            <h3>Select your document</h3>
+            <select id="document-select" onchange="updateDocumentBox()">
+                <option value="" disabled selected>Select your document</option>
+            </select>
+            <div class="scrollable-view">
+                <div class="title-info">
+                    <h3 id="document-source">Document Source</h3>
+                </div>
+                <p class="document-text" id="document-text">Document text </p> 
+            </div>
+            <div class="button-group">
+                <a href="add-document.html" class="btn add-doc-btn">Add Document</a>
+                <button class="btn delete-doc-btn" id="delete-document-btn">Delete Document</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>

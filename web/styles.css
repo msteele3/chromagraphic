@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align top elements vertically */
+    height: 100vh;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.right-side {
+    margin-top: 20px;
+    border: 2px solid #4CAF50; /* Adjust the color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.scrollable-view {
+    height: 300px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn, .submit-btn, .back-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Adjust the font size as desired */
+    display: inline-block; /* Ensure consistent size for buttons */
+}
+
+.btn:hover, .submit-btn:hover, .back-btn:hover {
+    background-color: #45a049;
+}
+
+.back-btn {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.path-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #4CAF50; /* Adjust the color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.path-container p {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.create-btn, .delete-btn {
+    margin-top: 10px;
+}
+
+.collection-container {
+    margin-top: 20px;
+    border: 2px solid #4CAF50; /* Adjust the color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.collection-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.add-document-container {
+    margin-bottom: 10px;
+    border: 2px solid #4CAF50; /* Adjust the color as needed */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.item-group {
+    margin-bottom: 10px;
+}
+
+.item-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.item-group input, .item-group select, .item-group textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.item-group textarea {
+    box-sizing: border-box;
+}
+
+.source-group {
+    margin-bottom: 10px;
+}
+
+.source-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.source-group input, .item-group select, .item-group textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.source-group textarea {
+    box-sizing: border-box;
+}
+
+
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Add this line */
+    margin-top: 10px;
+}
+
+
+.button-group button, .button-group a {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Adjust the color as needed */
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-group button:hover, .button-group a:hover {
+    background-color: #45a049; /* Adjust the color as needed */
+}
+
+.button-group .submit-btn{
+    margin-top: 20px;
+}
+
+.path-input-container {
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.path-input-div {
+    display: flex;
+    align-items: center;
+}
+
+.path-input-div p {
+    margin-right: 10px;
+}
+
+.path-input-div input[type="text"] {
+    flex: 1;
+}
+
+.path-input-div .btn {
+    margin-left: 10px;
+}
+
+.add-collection-div {
+    display: block; /* Initially hidden */
+    margin-top: 20px;
+  }
+  
+  
+  .add-collection-div label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-collection-div input[type="text"] {
+    width:89%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .add-collection-div button {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Adjust the color as needed */
+    color: white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .add-collection-div button:hover {
+    background-color: #45a049; /* Adjust the color as needed */
+  }
+  
+
+.title-info{
+    margin-left: 34%;
+}
+
+.document-text{
+    width: fit-content;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+
+}
