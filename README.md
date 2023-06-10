@@ -8,9 +8,11 @@ Chromagraphic was devloped using Python and Javascript
 ## Walkthrough
 
 Main Page:
+You can select your collection with the dropdown, or add a new collection. Additionally, you can view all of the documents in the currently selected collection by clicking the dropdown by the documents. The document view window shows the source metadata and the text content in that document.
 <img width="1512" alt="Screenshot 2023-06-10 at 2 25 57 PM" src="https://github.com/msteele3/chromagraphic/assets/94016758/857905e8-c645-4f28-b888-e1839a289980">
 
 Add Document Page:
+On the document adding page, you can add the document information in the fields and select which collection to add it to.
 <img width="1512" alt="Screenshot 2023-06-10 at 2 26 03 PM" src="https://github.com/msteele3/chromagraphic/assets/94016758/7b7f5fd0-13ab-4c6f-a663-60e724c11578">
 
 ## Getting Started
