@@ -37,7 +37,7 @@ To use Chromagraphic, follow the instructions below:
 
 Chromagraphic is built with the help of the following libraries:
 
--[Eel](https://github.com/python-eel/Eel):A little Python library for making simple Electron-like HTML/JS GUI apps
+- [Eel](https://github.com/python-eel/Eel):A little Python library for making simple Electron-like HTML/JS GUI apps
 - [ChromaDB](https://github.com/example/chromadb): A powerful database system for managing Chroma collections.
 - [OpenAI](https://openai.com/): OpenAI's GPT-3.5 language model used to enhance natural language processing capabilities.
 
