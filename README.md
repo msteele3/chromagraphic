@@ -5,7 +5,7 @@ This tool was something I made while in the process of developing a project that
 
 Chromagraphic was devloped using Python and Javascript
 
-## Screenshots
+## Walkthrough
 
 Main Page:
 <img width="1512" alt="Screenshot 2023-06-10 at 2 25 57 PM" src="https://github.com/msteele3/chromagraphic/assets/94016758/857905e8-c645-4f28-b888-e1839a289980">
