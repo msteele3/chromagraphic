@@ -3,7 +3,7 @@
 Chromagraphic is a powerful tool that allows you to control and view ChromaDB collections and their documents using a user-friendly graphical user interface (GUI). With Chromagraphic, you can easily manage your collections, add new documents, and perform various operations on your data.
 This tool was something I made while in the process of developing a project that required adding lots of data into a vector database. I wanted an intuitive and easy way to add the data without having to run in a python notebook, and am excited to be able to share it with the world!
 
-Chromagraphic was devloped using
+Chromagraphic was devloped using python and Javascript
 
 ## Screenshots
 
