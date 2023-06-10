@@ -3,6 +3,8 @@
 Chromagraphic is a powerful tool that allows you to control and view ChromaDB collections and their documents using a user-friendly graphical user interface (GUI). With Chromagraphic, you can easily manage your collections, add new documents, and perform various operations on your data.
 This tool was something I made while in the process of developing a project that required adding lots of data into a vector database. I wanted an intuitive and easy way to add the data without having to run in a python notebook, and am excited to be able to share it with the world!
 
+Chromagraphic was devloped using
+
 ## Screenshots
 
 Main Page:
@@ -35,6 +37,7 @@ To use Chromagraphic, follow the instructions below:
 
 Chromagraphic is built with the help of the following libraries:
 
+-[Eel]:(https://github.com/python-eel/Eel)A little Python library for making simple Electron-like HTML/JS GUI apps
 - [ChromaDB](https://github.com/example/chromadb): A powerful database system for managing Chroma collections.
 - [OpenAI](https://openai.com/): OpenAI's GPT-3.5 language model used to enhance natural language processing capabilities.
 
